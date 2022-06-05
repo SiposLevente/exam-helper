@@ -1,0 +1,241 @@
+h; A dinamikus utasítás ütemezés elsősorban a mikroarchitektúra hátsó részének az átbocsátó képességét növeli meg;2. Generációs szuperskalárok;helyes
+i; A nagyobb skálázhatóság ára általában a nagyobb memória késleltetés;Folyamatszinten párhuzamos architektúrák;helyes
+i;A „Data Valid Window” kijelöli azt a minimális időintervallumot, amíg a jelnek érvényesnek kell lennie;Fejlődési korlátok;helyes
+h;A „hőkatasztrófa” alapvető oka a dinamikus disszipáció exponenciális növekedése;Fejlődési korlátok;helyes
+h;A „jitter” leszűkíti a tolerancia sávokat mind a jelszintek, mind a DVW tekintetében;Fejlődési korlátok;helyes
+i;A „Level 1” cache a regiszterek után a leggyorsabb átmeneti tároló;Gyorsító tárak;helyes
+h;A „skew” fázisbizonytalanságot jelent, elmossa a jelek felfutó és lefutó éleit;Fejlődési korlátok;helyes
+h;A „V” bit a cache blokk valamely részének módosítását jelzi;Gyorsító tárak;helyes
+i;A blokk méret és a sor méret általában azonos;Gyorsító tárak;helyes
+h;A cache mindig a CPU és az MMU között helyezkedik el;Gyorsító tárak;helyes
+h;A cache találatok száma nem függ a cache méretétől;Gyorsító tárak;helyes
+h;A cache tároló az adatok és utasítások átmeneti tárolására szolgáló, gyors működésű, a felhasználó számára is látható tároló;Gyorsító tárak;helyes
+i;A cache tárolóban a memória egyes, egymást követő rekeszeinek tartalmát tároljuk a tárolóbeli hely címével együtt;Gyorsító tárak;helyes
+i;A cache-ben tárolt címrész lehet fizikai cím;Gyorsító tárak;helyes
+i;A cache-ben tárolt címrész lehet virtuális cím;Gyorsító tárak;helyes
+i;A cc-NUMA rendszerek mindig nyilvántartják, hogy hol található egy bizonyos adat legfrissebb példánya;Folyamatszinten párhuzamos architektúrák;helyes
+h;A cc-NUMA rendszerek nem törődnak a távoli CPU-nak átadott, ott módosított, de még vissza nem írt adattal;Folyamatszinten párhuzamos architektúrák;helyes
+h;A cc-NUMA rendszerek tervezése és építése a legkönnyebb;Folyamatszinten párhuzamos architektúrák;helyes
+h;A cél regiszterekhez csak akkor rendelődik átnevezési regiszter, ha fennáll az esélye, hogy függőség keletkezhet;2. Generációs szuperskalárok;helyes
+h;A célregiszterek átnevezése a várakoztató állomásban történik;2. Generációs szuperskalárok;helyes
+i;A ciklus- és eljárásszintű párhuzamosságok általában szálak vagy folyamatok formájában jelennek meg;Párhuzamos architektúrák osztályozása és függőségek;helyes
+h;Valós adatfüggőség a WAR függőség;Függőségek;helyes
+h;A CISC-szerű architektúra jelent meg előbb;CISC/RISC;helyes
+i;A CISC architektúra általában kompatibilis a régebbi verziókkal;CISC/RISC;helyes
+h;A CISC architektúráknál egyszerűbb a futószalagos feldolgozás kialakítása;CISC/RISC;helyes
+i;A CISC processzoroknál egyszerűbb a Compiler írása;CISC/RISC;helyes
+h;A processzor konzisztencia azt jelenti, hogy a processzor csak az utasítások eredeti sorrendjében fogadja el a megszakítás kéréseket.;Függőség;helyes
+h;A ciklusbeli adatfüggőség statikusan és dinamikusan is kiküszöbölhető;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;A ciklusszintű párhuzamosság az egymást követő iterációk párhuzamos végrehajthatóságát jelenti;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;A CISC architektúrák általában nem használták a késleltetett ugrást;Futoszalag processzorok;helyes
+i;A CISC processzorok futószalagja általában hosszabb;Futószalag processzorok, CISC-RISC architektúrák;helyes
+h;A CISC processzorokban általában több regiszter található;Futószalag processzorok, CISC-RISC architektúrák;helyes
+i;Manapság egyre jobban terjednek a RISC-szerű architektúrák a mobil eszközökben;CISC-RISC;helyes
+h;A CISC utasítások átalakítása RISC szerű utasításokká, a várakoztató állomásban történik;2. Generációs szuperskalárok;helyes
+i;A CISC utasításokat a futószalagon kívül alakítják át RISC-szerű utasításokká;2. Generációs szuperskalárok;helyes
+i;A CPU a frissen elkészült eredményeket tartalmazó regiszterek címére keres rá a várakoztató állomásban;2. Generációs szuperskalárok;helyes
+i;A dedikált futószalag a különböző logikai futószalagok fizikai megvalósítása;Futoszalag processzorok;helyes
+h;A dedikált futószalagok egyforma hosszúak;Futoszalag processzorok;helyes
+i;A Hyper-threading az SMT egyik megvalósítási formája;Netburst architektúra és Hyper-Threading;helyes
+h;A dekódoló egység finoman szemcsézett modell szerint dekódolja s szálak utasításait;Netburst architektúra és Hyper-Threading;helyes
+h;A dinamikus disszipáció exponenciálisan nő a frekvencia növelésével;Fejlődési korlátok;helyes
+h;A dinamikus disszipáció képlete: Dd= A x C x F2 x V;Fejlődési korlátok;helyes
+i;A dinamikus utasítás ütemezés megnöveli a mikroarchitektúra elejének az átbocsátó képességét;2. Generációs szuperskalárok;helyes
+i;A dinamukis utasítás ütemezés lényege a pufferelt utasítás kibocsátás és a sorrenden kívüli kiküldés;2. Generációs szuperskalárok;helyes
+i;A disszipáció csökkentés egyik módja a dinamikus feszültség és frekvencia szabályozás;Fejlődési korlátok;helyes
+i;A disszipáció csökkentés egyik módja a tranzisztor technológia fejlesztése;Fejlődési korlátok;helyes
+h;A feloldatlan feltételes utasítások estén a kibocsátási blokkolás a gyorsítótár bevezetésével kiküszöbölhető;Futoszalag processzorok;helyes
+i;A feltételes ugrások függőséget okozhatnak;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;A fix előrejelzés (elágazásbecslés) a hivatkozott feltétel ismertté válásáig kiküszöböli a kibocsátási blokkolást;Futoszalag processzorok;helyes
+i;A forrás regisztereket is átnevezik;2. Generációs szuperskalárok;helyes
+h;Egy RISC utasítás általában több elemi feladatot tud végrehajtani;CISC/RISC;helyes
+i;A CISC processzorok általában két operandusos utasításokat használnak;CISC/RISC;helyes
+h;A CISC processzorok általában három operandusos utasításokat használnak;CISC/RISC;helyes
+h;A CISC architektúráknál általában huzalozott utasítás dekódolást alkalmaznak;CISC/RISC;helyes
+i;A forrás regiszterekhez átnevezési regisztereket rendelnek;2. Generációs szuperskalárok;helyes
+i;A RISC-szerű architektúra jelent meg előbb;CISC/RISC;helyes
+i;A CISC processzorok nagy belső mikroprogram tárat igényelnek;CISC/RISC;helyes
+i;A forrásoperandusok lehívása kibocsátáskor és kiküldéskor is megtörténhet;2. Generációs szuperskalárok;helyes
+h;A frekvencia növelésének egyik forrása a futószalag fokozatok hosszának a növelése;Netburst architektúra és Hyper-Threading;helyes
+i;A frekvencia további növelése az architekturális okok miatt nem volt lehetséges, ezért kellet új irányban fejleszteni;Netburst architektúra és Hyper-Threading;helyes
+h;A Retirement logic az architektúrális állapotokat figyelve a megfelelő logikai processzorba írja viszza az eredményt;Netburst architektúra és Hyper-Threading;helyes
+h;A függőség ellenőrzés az utasítás kibocsátása után történik;Első generációs szuperskalárok;helyes
+h;A függőségek ellenőrzése mindig kibocsátás előtt történik;2. Generációs szuperskalárok;helyes
+i;A függőségek kezelése történhet statikusan és dinamikusan is;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;A futószalag fokozatok száma közel duplájára nőtt a Pentium III-hoz képest;Netburst architektúra és Hyper-Threading;helyes
+i;A futószalag fokozatok száma nem növelhető a végtelenségig;Fejlődési korlátok;helyes
+h;A futószalag processzorok sebesség növekedését kizárólag az adat- és erőforrás függőségek gátolják;Futoszalag processzorok;helyes
+h;A helyes elágazás becslések száma ~3-5%-kal nőtt a Pentium III-hoz képest;Netburst architektúra és Hyper-Threading;helyes
+h;A helyettesítési stratégia azt mondja meg, hogy milyen időközönként kell cserélni a cache cellák tartalmát;Gyorsító tárak;helyes
+i;A hibás elágazás becslések száma ~33%-kal csökkent a Pentium III-hoz képest;Netburst architektúra és Hyper-Threading;helyes
+i;A hibás előrejelzések száma ~33%-kal csökkent a Pentium III-hoz képest;Netburst architektúra és Hyper-Threading;helyes
+h;A hosszú futószalagok legnagyobb előnye az utasítás-végrehajtás fajlagos hatékonyságának növekedése a rövidebb futószalagokhoz képest;Netburst architektúra és Hyper-Threading;helyes
+h;A Hyper futószalag egyik fokozata a gyors (Rapid) dekódoló egység;Netburst architektúra és Hyper-Threading;helyes
+i;A Hyper futószalag fajlagos hatékonysága viszonylag alacsony volt;Netburst architektúra és Hyper-Threading;helyes
+i;A Hyper-futószalag esetében a fokozatok számának növelésével igyekeztek a teljesítményt (sebességet) növelni.;Netburst architektúra és Hyper-Threading;helyes
+h;A frekvencia növelésének egyik forrása a futószalag fokozatok számának a növelése>Netburst architektúra és Hyper-Threading;helyes
+h;A Hyper-threading az SMP egyik megvalósítási formája;Netburst architektúra és Hyper-Threading;helyes
+i;A jel visszaverődések hullámimpedancia lezárás használatával kezelhetők;Fejlődési korlátok;helyes
+h;A kibocsátási szűk keresztmetszet az alkalmazott pufferelt kibocsátás következménye;Első generációs szuperskalárok;helyes
+i;A Netburst architektúrájú processzorokba a Re-order Buffer helyett az ún. Replay System került beépítésre;Netburst architektúra és Hyper-Threading;helyes
+i;A koherencia mechanizmus határozza meg azt a módszert, mellyel biztosítani lehet a főtár ésa cache tárak egyezőségét;Gyorsító tárak;helyes
+i;A központi várakoztató állomás aktualizálása asszociatív keresést igényel;2. Generációs szuperskalárok;helyes
+h;A legmagasabb prioritású megszakításokat a mai modern processzorok azonnal fogadják;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;A lehívás, a dekódolás és a kibocsátás nominális rátával működhet;2. Generációs szuperskalárok;helyes
+h;A maximális frekvenciát a leggyorsabb futószalag fokozat sebessége határozza meg;Netburst architektúra és Hyper-Threading;helyes
+h;A maximális frekvenciát a leghosszabb futószalag fokozat hossza határozza meg;Netburst architektúra és Hyper-Threading;helyes
+h;A maximális frekvenciát a leglassabb futószalag fokozat sebessége határozza meg;Netburst architektúra és Hyper-Threading;helyes
+h;A Netburst architektúra egy tisztán RISC architektúra;Netburst architektúra és Hyper-Threading;helyes
+i;A Netburst architektúra hatékonyságban alulmaradt több versenytársával szemben;Netburst architektúra és Hyper-Threading;helyes
+i;A Netburst architektúra nagyszámú látható regiszterrel rendelkezik;Netburst architektúra és Hyper-Threading;helyes
+h;A Netburst architektúra RISC architektúra;Netburst architektúra és Hyper-Threading;helyes
+i;A Netburst architektúrájú CPU teljesítménye alulmaradt több versenytársával szemben;Netburst architektúra és Hyper-Threading;helyes
+i;A Netburst architektúrájú processzor bizonyos feltételek megléte esetén a függő utasításokat is elkezdte végrehajtani;Netburst architektúra és Hyper-Threading;helyes
+h;A Netburst architektúrájú processzor bizonyos feltételek megléte esetén a még függőségben lévő utasításokat is elkezdte végrehajtani;Netburst architektúra és Hyper-Threading;helyes
+h;Az ál adatfüggőségek tulajdonképpen nem is igazi függőségek, nem kell kezelni őket;Függöségek;helyes
+h;Műveleti adatfüggőség esetén az adat Cache-ből közvetlenül a végrehajtó egység bemenetére kerül az operandus;Függőségek;helyes
+i;A Netburst architektúrájú processzorokba a Re-order Buffer helyett a Replay System került beépítésre;Netburst architektúra és Hyper-Threading;helyes
+i;A NUMA rendszerekben általában közös címtere van a processzoroknak, de tartományokra van osztva;Folyamatszinten párhuzamos architektúrák;helyes
+i;A NUMA rendszerekben fontos, hogy az adat mind az őt oda író, mind az azt olvasó másik CPU-hoz „közel” legyen;Folyamatszinten párhuzamos architektúrák;helyes
+h;A nyomkövető gyorsítótárból kerülnek az utasítások a dekódoló egységbe;Netburst architektúra és Hyper-Threading;helyes
+h;A párhuzamos buszok frekvencia korlátja azt jelenti, hogy nagy frekvenciás adatátvitel esetében a vezetékek túlságosan felmelegszenek és ez adatvesztést okozhat.;Fejlődési korlátok;helyes
+i;A párhuzamos végrehajtás megsértheti a soros végrehajtás logikáját;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;A processzor a dekódoló egységből képes ciklusonként több utasítást is kibocsátani;Első generációs szuperskalárok;helyes
+i;A processzor a dekódolt utasításokat közvetlenül, pufferelés nélkül küldi a végrehajtó egységekhez;Első generációs szuperskalárok;helyes
+i;A Quad Data Rate Bus a sávszélesség növelésével tudta négyszeres sebességen továbbítani az adatokat;Netburst architektúra és Hyper-Threading;helyes
+h;A Quad Data Rate busz az utasítások gyorsabb beolvasását tette lehetővé.;Netburst architektúra és Hyper-Threading;helyes
+h;A Rapid Execution Engine a lebegőpontos műveleteket gyorsította;Netburst architektúra és Hyper-Threading;helyes
+i;A Rapid Execution Engine kétszeres sebességgel tud végrehajtani minden aritmetikai műveletet;Netburst architektúra és Hyper-Threading;helyes
+h;A RAW függőség blokkol, a WAW és a WAR nem;Első generációs szuperskalárok;helyes
+i;A RAW függőség operandus előrehozással, dinamikusan kezelhető;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;A regiszter átnevezés csak extra hardver segítségével oldható meg;Párhuzamos architektúrák osztályozása és függőségek;helyes
+h;A regiszter átnevezéssel az egymást követő utasítások regiszter operandusai között esetleg fennálló RAW és WAW függőségeket megszüntetik;2. Generációs szuperskalárok;helyes
+h;A regiszterazonosító azért kell, hogy a CPU tudja, melyik regiszterben található a következő utasítás;2. Generációs szuperskalárok;helyes
+i;A Replay queue egy speciális puffer, ahová a hibásan ütemezett utasítások kerülnek;Netburst architektúra és Hyper-Threading;helyes
+i;A Replay system csökkentheti a CPU hatékonyságát;Netburst architektúra és Hyper-Threading;helyes
+h;A Retirement logic az architektúrális állapotokat figyelve a megfelelő logikai processzorba írja vissza az eredményt;Netburst architektúra és Hyper-Threading;helyes
+h;A RISC architektúra általában kompatibilis a régebbi verziókkal;Futószalag processzorok, CISC-RISC architektúrák;helyes
+i;A RISC processzorokban általában több regiszter található;Futószalag processzorok, CISC-RISC architektúrák;helyes
+h;A RISC processzoroknál egyszerűbb a gépi kódú programozás;Futószalag processzorok, CISC-RISC architektúrák;helyes
+h;A RISC processzorok általában két operandusos utasításokat használnak;CISC/RISC;helyes
+h;A RISC processzorok futószalagja általában hosszabb;CISC/RISC;helyes
+h;A soros busz nem alkalmas nagyfrekvenciás adatátvitelre;Fejlődési korlátok;helyes
+i;A spekulatív bit értéke azt jelzi, hogy az adott utasítás egy feltétlen, vagy feltételes elágazásos utasítás.;2. Generációs szuperskalárok;helyes
+h;A statikus disszipáció a tranzisztorok működéséből adódó hőmennyiség;Fejlődési korlátok;helyes
+h;A statikus disszipáció négyzetesen függ a feszültségtől;Fejlődési korlátok;helyes
+i;A statikus és a dinamikus disszipáció optimális esetben közel azonos nagyságú;Fejlődési korlátok;helyes
+h;A szekvenciális konzisztencia kapcsán megkülönböztetünk soros és párhuzamos konzisztenciát;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;A tartalom szerinti visszakeresés esetén a keresett adat értéke alapján keresünk;Gyorsító tárak;helyes
+h;A valós adatfüggőség speciális extra hardverrel kiküszöbölhető;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;A várakoztató állomás feltöltése sorrenden kívül történik;2. Generációs szuperskalárok;helyes
+i;A valós adatfüggőség speciális hardverrel megszüntethető;Függösegek;helyes
+h;A várakoztató állomásban a CPU az operandus mezőket vizsgálja, hogy ellenőrizze, kiküldhető-e az utasítás végrehajtásra;2. Generációs szuperskalárok;helyes
+h;Az utasítások addig maradnak a várakoztató állomásban, amíg a regiszterek átnevezése be nem fejeződik.;Második generációs szuperskalárok;helyes
+i;A dinamukis utasítás ütemezés lényege a pufferelt utasítás kibocsátás és a sorrenden kívüli kiküldés (pufferelt sorrendi utasításkibocsátás);Második generációs szuperskalárok;helyes
+h;A várakoztató állomásban két operandusos utasítások tárolódnak;2. Generációs szuperskalárok;helyes
+i;A várakoztató állomásban két operandusos utasításokat tárol;2. Generációs szuperskalárok;helyes
+i;Párhuzamos szálak származtathatók ugyanabból az alkalmazásból is;Szálak;helyes
+h;Az SMP processzorok általában egymagos, többszálas CPU-k;Szálak;helyes
+i;A többszálúság lehet szoftveres is és hardveres is;Szálak;helyes
+i;Többszálú architektúrák esetén elvárás, hogy ha csak az egyik szál fut, akkor az ugyanolyan gyors legyen, mint egy „egyszerű” egymagos processzor;Szálak;helyes
+i;Az SMT-t használó processzorban a regiszter átnevező és a hozzárendelő egység általában megduplázott erőforrás;Szálak;helyes
+i;A folyamatok közötti váltás hardveres támogatás esetén minimális időt vesz igénybe;Szálak;helyes
+i;SMT esetén a processzorban egyszerre több architektúrális állapot van jelen;Szálak;helyes
+h;A szoftveres többszálúság architektúrális támogatás nélkül is jelentősen gyorsítja a végrehajtást;Szálak;helyes
+i;Az egyik szál várakozása esetén az összes erőforrást az aktív logikai CPU kapja meg;Szálak;helyes
+i;A szál szinten párhuzamos architektúrák hatékonysága alkalmazás függő;Szálak;helyes
+i;Az SMT a szálak utasításait felváltva, sorrenden kívüli kibocsátással hajtja végre;Szálak;helyes
+h;A "SoEMT"-t használó processzorok általában finoman szemcsézett módon hajtják végre a szálak utasításait;Szálak;helyes
+i;A szál szintű párhuzamosítás célja az egyetlen fizikai magban a feldolgozás során keletkező üresjáratok kihasználása;Szálak;helyes
+h;Finoman szemcsézett végrehajtásnál a szálak közötti váltás a processzort „váratlanul” éri;Szálak;helyes
+h;Egy SMT-t használó processzorban várakoztató állomás általában megduplázott erőforrás;Szálak;helyes
+h;A CISC architektúrákban minden utasítás ugyanolyan hosszú;CISC/RISC;helyes
+h;Az explicit párhuzamosság azt jelenti, hogy a programozó szekvenciális programot ír és a szoftver vagy a hardver feladata a párhuzamosságok felderítése;Szálak;helyes
+h;Szál szinten párhuzamos architektúrák szoftveres támogatás nélkül is jelentősen gyorsítják a végrehajtást;Szálak;helyes
+i;A funkcionális párhuzamosság szál szinten is hasznosítható;Szálak;helyes
+h;A többszálúság hardveres megvalósítása jelentős hardver komplexitás növelést igényel;Szálak;helyes
+i;A vektor processzorokban csak a végrehajtás működik futószalagszerűen;Futoszalag processzorok;helyes
+i;A vezérlés függőség statikusan és dinamikusan is kezelhető;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;Adatfüggőségeket megkülönböztethetjük jellegük illetve az operandus típusa szerint;Párhuzamos architektúrák osztályozása és függőségek;helyes
+h;Általában kijelenthető, hogy a magas szinteken rendelkezésre álló párhuzamosság nagy valószínűséggel párhuzamos architektúrákkal, párhuzamos optimalizáló vagy a párhuzamos fordítóprogramok támogatásával közvetlenül hasznosítható;Párhuzamos architektúrák osztályozása és függőségek;helyes
+h;Általában statikus elágazás becslést lakalmaznak;2. Generációs szuperskalárok;helyes
+h;Amdahl törvénye szerint ha egy programkód 50%-a párhuzamosítható, akkor a maximális elérhető gyorsulás elméletben akár 50-szeres is lehet;Folyamatszinten párhuzamos architektúrák;helyes
+i;Az adatátvitel a cache és a memória között lehet blokkos formájú is;Gyorsító tárak;helyes
+i;Az adatnak azt a részét, amelynek összehasonlításával történik a kiválasztás „tag”-nek nevezzük;Gyorsító tárak;helyes
+h;Az adatpárhuzamosság csak közvetlenül, az erre a célra szolgáló adatpárhuzamos architektúrák révén hasznosítható.;Párhuzamos architektúrák osztályozása és függőségek;helyes
+h;Az ál adatfüggőségek tulajdonképpen nem is függőségek, nem okoznak késleltetést;Párhuzamos architektúrák osztályozása és függőségek;helyes
+h;Az architektúrális regisztereket szokták „piszkozat” regisztereknek is nevezni;2. Generációs szuperskalárok;helyes
+i;Az egyes futószalag fokozatok a gyakorlatban különböző időt igényelne, ez komoly időveszteséget okozhat;Futoszalag processzorok;helyes
+i;Az egyes futószalag fokozatok egymástól teljesen független hardver egységekkel rendelkeznek;Futoszalag processzorok;helyes
+i;Az egyes futószalag fokozatok párhuzamosan hajtanak végre műveleteket;Futoszalag processzorok;helyes
+i;Az egyes futószalag fokozatok párhuzamosan hajthatnak végre műveleteket;Futószalag processzorok, CISC-RISC architektúrák;helyes
+h;Az egyes futószalag fokozatokat a felhasználó által programozható regiszterek választják el egymástól;Futoszalag processzorok;helyes
+h;Az egyes futószalag fokozatokat a programozó által is címezhető regiszterek választják el egymástól;Futószalag processzorok, CISC-RISC architektúrák;helyes
+h;Az elágazási szűk keresztmetszetet dinamikus becsléssel kezelik;Első generációs szuperskalárok;helyes
+h;Az utasítás végrehajása után az eredmény azonnal az architektúrális regiszterbe íródik;2/ Második generációs CISC szuperskalár processzorok;helyes
+h;Az elágazások kezelése statikus előrejelzéssel történik;2. Generációs szuperskalárok;helyes
+i;Az elosztott memória használatú rendszerekben a folyamatok üzenetek segítségével kommunikálnak egymással;Folyamatszinten párhuzamos architektúrák;helyes
+h;Az első generációs szuperskalárok a dekóderből óraciklusonként maximum 4-6 utasítást tudnak kibocsátani;Első generációs szuperskalárok;helyes
+h;Az első generációs szuperskalárok dinamikus elágazásbecslést alkalmaznak;Első generációs szuperskalárok;helyes
+h;Az első generációs szuperskalárok képesek gyorsítótár nélkül is egyidőben adathozzáférésre, utasítás beolvasására és végrehajtására;Első generációs szuperskalárok;helyes
+i;Az első generációs szuperskalárok különálló kód- és adat címtartománnyal rendelkeznek;Első generációs szuperskalárok;helyes
+i;Az első generációs szuperskalárok statikusan kezelik a függőségeket;Első generációs szuperskalárok;helyes
+i;Az első generációs szuperskalárok teljesítménye alig haladta meg a futószalag processzorok teljesítményét;Első generációs szuperskalárok;helyes
+i;Az eredményeket és azonosítóikat a CPU a ROB-ba és a várakoztató állomásba is visszaírja (frissíti);2. Generációs szuperskalárok;helyes
+h;Az erőforrás függőséget a dinamikus utasítás ütemezéssel és a sorrenden kívüli kiküldéssel kezeli;2. Generációs szuperskalárok;helyes
+h;Az interlock funkció futószalagok közötti paraméter átadást gyorsítja;Futoszalag processzorok;helyes
+h;Az L1 utasítás cache RISC-szerű utasításokat tartalmaz;2. Generációs szuperskalárok;helyes
+i;Az nc-NUMA és a cc-NUMA rendszerek a távoli memóriák és cache-ek adatainak kezelésében térnek el egymástól;Folyamatszinten párhuzamos architektúrák;helyes
+h;Az nc-NUMA rendszerek programozása egyszerűbb;Folyamatszinten párhuzamos architektúrák;helyes
+i;Az operandusok az architekturális regiszterből kerülnek beolvasásra;Első generációs szuperskalárok;helyes
+i;Az óraciklusonként a dekóderből kibocsátott utasítások számát kibocsátási rátának nevezzük;Első generációs szuperskalárok;helyes
+i;Az ugrási buborék a méretének megfelelő számú utasítás lehívását blokkolja;Futoszalag processzorok;helyes
+h;Az ugrási buborék mérete az adat típusától függ;Futoszalag processzorok;helyes
+h;Az újrafeldolgozás gyorsítja a futószalag sebességét;Futószalag processzorok, CISC-RISC architektúrák;helyes
+h;Az újrafeldolgozás gyorsítja a futószalag sebességét és csökkenti a fokozatok közötti sebesség különbségeket;Futoszalag processzorok;helyes
+h;Az UMA rendszerek jól skálázhatók;Folyamatszinten párhuzamos architektúrák;helyes
+h;Az UMA rendszerek kevésbé terhelik a buszrendszert;Folyamatszinten párhuzamos architektúrák;helyes
+h;Az UMA rendszerekben nem mindegy, hogy a memórián belül hová kerülnek az eredmények;Folyamatszinten párhuzamos architektúrák;helyes
+i;Az utasítás ablak az utasítás pufferből kerül feltöltésre és utasítás kibocsátáskor kiürül;Első generációs szuperskalárok;helyes
+i;Az utasítás ablak egy olyan puffer, mely az adott ciklusban kibocsátandó utasításokat tartalmazza;Első generációs szuperskalárok;helyes
+h;Az utasítás kibocsátás a várakoztató állomásba sorrenden kívül történik (pufferelt);2. Generációs szuperskalárok;helyes
+i;Az utasítás kibocsátás sorrenden kívül történik (pufferelt);2. Generációs szuperskalárok;helyes
+h;Az utasítás végrehajtása után az eredmény azonnal az architekturális regiszterbe íródik;2. Generációs szuperskalárok;helyes
+i;Az utasítások addig maradnak a várakoztató állomásban, amíg a regiszterek átnevezése be nem fejeződik;2. Generációs szuperskalárok;helyes
+h;Az utasítások feldolgozása sorrenden kívül történik;Első generációs szuperskalárok;helyes
+i;Az utasítások lehívása 128 bites részletekben történik;2. Generációs szuperskalárok;helyes
+i;Az utasítások lehívása általában 128 bites részletekben történik;2. Generációs szuperskalárok;helyes
+i;Az x86 utasításkészlet utasításainak hossza változó;Netburst architektúra és Hyper-Threading;helyes
+i;Címkézéssel kiküszöbölhető a pontatlan kivételkezelés;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;Direct mapping cache szervezés esetén a találati arány alacsonyabb;Gyorsító tárak;helyes
+i;Egy adott alrendszer szélességén azt értjük, hogy hány utasítást képes feldolgozni ciklusonként;Első generációs szuperskalárok;helyes
+i;Egy adott típusú dedikált futószalagból egy CPU-n (vagy CPU magon) belül többet is készíthetünk;Futószalag processzorok, CISC-RISC architektúrák;helyes
+i;Egy adott típusú dedikált futószalagból többet is készíthetünk;Futoszalag processzorok;helyes
+i;Egy futószalagnál, melyben az utasítás-lehívás és a végrehajtás átfedi egymást, függőség jelenhet meg;Párhuzamos architektúrák osztályozása és függőségek;helyes
+h;Egy multiprocesszoros rendszer teljesítmény növekményét alapvetően a processzorok száma határozza meg;Folyamatszinten párhuzamos architektúrák;helyes
+i;Mindig hatékonyabb N db CPU-t használni egységnyi órajellel, mint egy darab CPU-t használni N-szeres órajellel;Folyamatszinten párhuzamos architektúrák;helyes
+h;A vezérlés függőség statikus kezelésénél az utasítások sorrendje megváltozhat;Függőségek;helyes
+i;Egy Netburst architektúrájú processzorban egy ciklus alatt általában kevesebb utasítás hajtódik végre, mint egy kortárs szuperskalár CPU-ban;Netburst architektúra és Hyper-Threading;helyes
+i;Egy SMT CPU a szálak utasításait felváltva, sorrenden kívüli kibocsátással hajtja végre;Netburst architektúra és Hyper-Threading;helyes
+i;Egy SMT processzorban a regiszter átnevező és a hozzárendelő egység megduplázott erőforrás;Netburst architektúra és Hyper-Threading;helyes
+h;Egy SMT processzorban várakoztató állomás megduplázott erőforrás;Netburst architektúra és Hyper-Threading;helyes
+h;Egy utasítás végrehajtása akkor történik meg, amikor az összes korábbi utasítás végrehajtásra került;2. Generációs szuperskalárok;helyes
+i;Egymagos processzoroknál a fejlesztési költség általában exponenciálisan nő a számítási teljesítményhez képest;Folyamatszinten párhuzamos architektúrák;helyes
+h;Előfordulhat, hogy egy-egy utasítás lehívása több óraciklus alatt történik meg.;2. Generációs szuperskalárok;helyes
+i;Futószalag processzorok óraciklusonként akár kettő-négy utasítást is végre tudnának hajtani, ha nem gátolnák ezt a függőségek;Futószalag processzorok, CISC-RISC architektúrák;helyes
+h;Futószalag processzorokkal óraciklusonként akár kettő-négy utasítás is végrehajtható;Futoszalag processzorok;helyes
+i;Futószalagos feldolgozás esetén a processzor akár minden óraciklusban kérhet le adatot az operatív tárból;Futoszalag processzorok;helyes
+i;Ha egy átnevezési regiszter azonosítóhoz tartozik érvényes bejegyzés a ROB-ban, akkor a CPU ezt részesíti előnyben, és ezt írja be a várakoztató állomásban lévő utasítás operandus értékének.;2. Generációs szuperskalárok;helyes
+i;Ha már minden korábbi RISC-szerű utasítás kiírásra került, akkor az aktuális RISC-szerű utasítás is kiírható a ROB-ból;2. Generációs szuperskalárok;helyes
+h;Ha van olyan, minden processzor számára látható memória, melyen keresztül a folyamatok kommunikálni tudnak egymással, akkor elosztott memória használatú rendszerről beszélünk;Folyamatszinten párhuzamos architektúrák;helyes
+i;Időbeli és térbeli párhuzamosság is megjelenik;2. Generációs szuperskalárok;helyes
+i;Jelszintek tekintetében a tanultak közül az DVFS a legfejlettebb;Fejlődési korlátok;helyes
+h;Kibocsátáskor történik a függőségek ellenőrzése;2. Generációs szuperskalárok;helyes
+h;Közvetlen leképezésű cache esetén kereséskor a CPU minden sorban egyszerre keres adatot;Gyorsító tárak;helyes
+h;Megkülönböztetünk rendelkezésre álló és nem kihasználható párhuzamosságot;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;Minden operandus mellett található egy állapotbit mező;2. Generációs szuperskalárok;helyes
+i;Szivárgási áramból többféle típust is megkülönböztetünk;Fejlődési korlátok;helyes
+h;Teljesen asszociatív cache esetén a beolvasott blokk csak egyetlen helyre helyezhető el;Gyorsító tárak;helyes
+h;Több független utasítás esetén a gyorsabban végrehajthatókat küldi a végrehajtó egységek felé a CPU először.;2. Generációs szuperskalárok;helyes
+i;Valós adatfüggőség a RAW függőség;Párhuzamos architektúrák osztályozása és függőségek;helyes
+i;Vezérlés áramlásos rendszerekben a párhuzamosság felderítését általában szoftveresen kell megoldani;Folyamatszinten párhuzamos architektúrák;helyes
